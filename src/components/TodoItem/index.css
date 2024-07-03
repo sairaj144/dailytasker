@@ -1,0 +1,19 @@
+.todoitem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.todo {
+  font-size: 20px;
+  color: #000000;
+}
+.delete {
+  background-color: #ffffff;
+  border: #ff0b37 2px solid;
+  color: #ff0b37;
+  padding: 4px;
+  border-radius: 9px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
