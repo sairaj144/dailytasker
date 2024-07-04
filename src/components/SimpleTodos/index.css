@@ -7,6 +7,9 @@
   font-family: 'Roboto';
   background-color: #ffc2a0;
 }
+.insertcard {
+  display: flex;
+}
 .card {
   background-color: #ffffff;
   border-radius: 12px;
@@ -22,4 +25,13 @@
 }
 .list-container {
   list-style-type: none;
+}
+.addbtn {
+  background-color: #ffffff;
+  border: #2610a5 2px solid;
+  color: #2610a5;
+  padding: 4px;
+  border-radius: 9px;
+  height: 30px;
+  cursor: pointer;
 }

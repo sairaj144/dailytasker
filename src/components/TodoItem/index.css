@@ -2,11 +2,21 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  align-items: center;
 }
 .todo {
   font-size: 20px;
   color: #000000;
 }
+
+input {
+  border: 1px solid #e23759;
+  width: 400px;
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 4px;
+}
+
 .delete {
   background-color: #ffffff;
   border: #ff0b37 2px solid;
@@ -14,6 +24,23 @@
   padding: 4px;
   border-radius: 9px;
   height: 40px;
-  margin-left: 20px;
   cursor: pointer;
+  margin-right: 4px;
+}
+
+.addbtn {
+  background-color: #ffffff;
+  border: #ff0b37 2px solid;
+  color: #ff0b37;
+  padding: 4px;
+  border-radius: 9px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.btnblock {
+  display: flex;
+  width: 180px;
+  margin-left: 20px;
 }
